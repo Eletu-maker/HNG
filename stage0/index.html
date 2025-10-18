@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <article data-testid="test-profile-card">
+    <figure>
+      <img src="imag/profile_pic.jpg" alt="User Avatar" data-testid="test-user-avatar">
+    </figure>
+    <div class="content">
+      <h2 data-testid="test-user-name">Eletu Usman</h2>
+      <p data-testid="test-user-bio">Im a web development student who loves building creative websites and learning JavaScript. I enjoy music, teamwork, and solving problems.</p>
+      <p>Current Time: <span data-testid="test-user-time" id="time"></span></p>
+      <nav>
+        <ul data-testid="test-user-social-links">
+          <li><a data-testid="test-user-social-twitter" href="#" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter" width="14"></a></li>
+          <li><a data-testid="test-user-social-github" href="#" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="14"></a></li>
+          <li><a data-testid="test-user-social-facebook" href="#" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" width="14"></a></li>
+          <li><a data-testid="test-user-social-instagram" href="#" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" width="14"></a></li>
+          <li><a data-testid="test-user-social-tiktok" href="#" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tiktok.svg" alt="TikTok" width="14"></a></li>
+        </ul>
+      </nav>
+      <section>
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Gaming</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Noise</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+  <script src="index.js">
+
+  </script>
+</body>
+</html>
