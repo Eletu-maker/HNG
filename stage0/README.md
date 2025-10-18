@@ -2,6 +2,8 @@
 
 A simple, responsive profile card web application that displays user information with social media links and real-time clock functionality.
 
+[View Live Demo](https://hngstahe0.netlify.app/)
+
 ## Project Overview
 
 This project showcases a personal profile card with:
